@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfLabelAndTextBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLabelAndTextBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="250">
+    <StackPanel Margin="10">
+        <Label Content="_Name:" Target="{Binding ElementName=txtName}" />
+        <TextBox Name="txtName" />
+        <Label Content="_Mail:" Target="{Binding ElementName=txtMail}" />
+        <TextBox Name="txtMail" />
+
+        <TextBlock Margin="10" TextWrapping="Wrap">As letras N e M deveriam está sublinhadas para indicar que funcionam com a tecla Alt.</TextBlock>
+    </StackPanel>
+</Window>
