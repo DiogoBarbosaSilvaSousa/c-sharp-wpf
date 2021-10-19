@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAccessKey", "WpfAccessKey\WpfAccessKey.csproj", "{4B4B155F-6B05-41EE-988B-73180F67FBFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4B155F-6B05-41EE-988B-73180F67FBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4B155F-6B05-41EE-988B-73180F67FBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4B155F-6B05-41EE-988B-73180F67FBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4B155F-6B05-41EE-988B-73180F67FBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E8483BE-9CB9-45B3-9C94-D31EC388AC96}
+	EndGlobalSection
+EndGlobal
