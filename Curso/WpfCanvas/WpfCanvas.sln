@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCanvas", "WpfCanvas\WpfCanvas.csproj", "{154EBF9F-1AE7-4271-8407-9B4535C7EF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCanvasButtonAlign", "WpfCanvasButtonAlign\WpfCanvasButtonAlign.csproj", "{91F23761-37DD-49B8-A2C8-9721D8742555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCanvasZIndex", "WpfCanvasZIndex\WpfCanvasZIndex.csproj", "{055E2AB9-C038-463F-BF22-B7D1DE68B49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154EBF9F-1AE7-4271-8407-9B4535C7EF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154EBF9F-1AE7-4271-8407-9B4535C7EF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154EBF9F-1AE7-4271-8407-9B4535C7EF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154EBF9F-1AE7-4271-8407-9B4535C7EF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F23761-37DD-49B8-A2C8-9721D8742555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F23761-37DD-49B8-A2C8-9721D8742555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F23761-37DD-49B8-A2C8-9721D8742555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F23761-37DD-49B8-A2C8-9721D8742555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055E2AB9-C038-463F-BF22-B7D1DE68B49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055E2AB9-C038-463F-BF22-B7D1DE68B49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055E2AB9-C038-463F-BF22-B7D1DE68B49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055E2AB9-C038-463F-BF22-B7D1DE68B49E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8CF98BC-A8E7-4E6E-B7BB-A1D194973FAD}
+	EndGlobalSection
+EndGlobal
