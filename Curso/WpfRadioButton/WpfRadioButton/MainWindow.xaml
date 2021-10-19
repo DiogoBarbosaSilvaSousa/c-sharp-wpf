@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfRadioButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRadioButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <StackPanel>
+        <StackPanel Margin="10">
+            <Label FontWeight="Bold">Você está pronto ?</Label>
+            <RadioButton>Sim</RadioButton>
+            <RadioButton>Não</RadioButton>
+            <RadioButton IsChecked="True">Talvez</RadioButton>
+        </StackPanel>
+
+        <StackPanel Margin="10">
+            <Label FontWeight="Bold">Você está pronto ?</Label>
+            <RadioButton GroupName="ready">Sim</RadioButton>
+            <RadioButton GroupName="ready">Não</RadioButton>
+            <RadioButton GroupName="ready" IsChecked="True">Talvez</RadioButton>
+
+            <Label FontWeight="Bold">Masculino ou feminino?</Label>
+            <RadioButton GroupName="sex">Masculino</RadioButton>
+            <RadioButton GroupName="sex">Feminino</RadioButton>
+            <RadioButton GroupName="sex" IsChecked="True">Não tenho certeza</RadioButton>
+        </StackPanel>
+
+        <StackPanel Margin="10">
+            <Label FontWeight="Bold">Você está pronto ?</Label>
+            <RadioButton>
+                <WrapPanel>
+                    <Image Source="/Images/accept.png" Width="16" Height="16" Margin="0,0,5,0" />
+                    <TextBlock Text="Sim" Foreground="Green" />
+                </WrapPanel>
+            </RadioButton>
+            <RadioButton Margin="0,5">
+                <WrapPanel>
+                    <Image Source="/Images/cancel.png" Width="16" Height="16" Margin="0,0,5,0" />
+                    <TextBlock Text="Não" Foreground="Red" />
+                </WrapPanel>
+            </RadioButton>
+            <RadioButton IsChecked="True">
+                <WrapPanel>
+                    <Image Source="/Images/question.png" Width="16" Height="16" Margin="0,0,5,0" />
+                    <TextBlock Text="Talvez" Foreground="Gray" />
+                </WrapPanel>
+            </RadioButton>
+        </StackPanel>
+    </StackPanel>
+</Window>
