@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfOpenFileDialog", "WpfOpenFileDialog\WpfOpenFileDialog.csproj", "{1DC6DA31-9004-4327-B032-B23761B5299D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfOpenFileDialogMultipleFiles", "WpfOpenFileDialogMultipleFiles\WpfOpenFileDialogMultipleFiles.csproj", "{D9BF2A13-1197-4583-ABDC-82458E5582EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DC6DA31-9004-4327-B032-B23761B5299D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC6DA31-9004-4327-B032-B23761B5299D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC6DA31-9004-4327-B032-B23761B5299D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC6DA31-9004-4327-B032-B23761B5299D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BF2A13-1197-4583-ABDC-82458E5582EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BF2A13-1197-4583-ABDC-82458E5582EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BF2A13-1197-4583-ABDC-82458E5582EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BF2A13-1197-4583-ABDC-82458E5582EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7F52D46-BF07-4BBD-9D2F-B0D1EFD0FE8A}
+	EndGlobalSection
+EndGlobal
