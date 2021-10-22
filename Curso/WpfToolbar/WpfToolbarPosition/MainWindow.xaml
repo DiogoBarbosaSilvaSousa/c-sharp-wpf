@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfToolbarPosition.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfToolbarPosition"
+        mc:Ignorable="d"
+         Title="ToolbarPosition" Height="250" Width="350">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Command="Cut" ToolTip="Corte a seleção para a área de transferência do Windows.">
+                    <Image Source="/component/Images/cut.png" VerticalAlignment="Center" />
+                </Button>
+                <Button Command="Copy" ToolTip="Copie a seleção para a área de transferência do Windows.">
+                    <Image Source="/component/Images/copy.png" VerticalAlignment="Center" />
+                </Button>
+                <Button Command="Paste" ToolTip="Cole da área de transferência do Windows.">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/component/Images/paste.png" VerticalAlignment="Center" />
+                        <TextBlock Margin="3,0,0,0" VerticalAlignment="Center">Colar</TextBlock>
+                    </StackPanel>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <ToolBarTray DockPanel.Dock="Right" Orientation="Vertical">
+            <ToolBar>
+                <Button Command="Cut" ToolTip="Corte a seleção para a área de transferência do Windows.">
+                    <Image Source="/component/Images/cut.png" />
+                </Button>
+                <Button Command="Copy" ToolTip="Copie a seleção para a área de transferência do Windows.">
+                    <Image Source="/component/Images/copy.png" />
+                </Button>
+                <Button Command="Paste" ToolTip="Cole da área de transferência do Windows.">
+                    <Image Source="/component/Images/paste.png" />
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <TextBox AcceptsReturn="True" />
+    </DockPanel>
+</Window>

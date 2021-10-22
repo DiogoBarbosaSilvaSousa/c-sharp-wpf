@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfToolbar", "WpfToolbar\WpfToolbar.csproj", "{493A63CA-0923-4173-8DA1-21DE29612046}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfToolbarIcon", "WpfToolbarIcon\WpfToolbarIcon.csproj", "{9B106555-6618-4EE8-B740-914CBA09F065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfToolbarPosition", "WpfToolbarPosition\WpfToolbarPosition.csproj", "{B68C34AA-78A6-4E2A-A145-344B9E8ECF9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfToolbarCustomControls", "WpfToolbarCustomControls\WpfToolbarCustomControls.csproj", "{9F9DC5F0-B73F-4F8D-ADE5-712832131A23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{493A63CA-0923-4173-8DA1-21DE29612046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493A63CA-0923-4173-8DA1-21DE29612046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493A63CA-0923-4173-8DA1-21DE29612046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B106555-6618-4EE8-B740-914CBA09F065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B106555-6618-4EE8-B740-914CBA09F065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B106555-6618-4EE8-B740-914CBA09F065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B106555-6618-4EE8-B740-914CBA09F065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68C34AA-78A6-4E2A-A145-344B9E8ECF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68C34AA-78A6-4E2A-A145-344B9E8ECF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68C34AA-78A6-4E2A-A145-344B9E8ECF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68C34AA-78A6-4E2A-A145-344B9E8ECF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9DC5F0-B73F-4F8D-ADE5-712832131A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9DC5F0-B73F-4F8D-ADE5-712832131A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9DC5F0-B73F-4F8D-ADE5-712832131A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9DC5F0-B73F-4F8D-ADE5-712832131A23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
