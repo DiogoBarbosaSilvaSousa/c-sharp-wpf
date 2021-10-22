@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfToolbar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfToolbar"
+        mc:Ignorable="d"
+         Title="Toolbar" Height="200" Width="300">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="CommonCommandBinding_CanExecute" />
+        <CommandBinding Command="Open" CanExecute="CommonCommandBinding_CanExecute" />
+        <CommandBinding Command="Save" CanExecute="CommonCommandBinding_CanExecute" />
+    </Window.CommandBindings>
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Command="New" Content="Novo" />
+                <Button Command="Open" Content="Abrir" />
+                <Button Command="Save" Content="Salvar" />
+            </ToolBar>
+            <ToolBar>
+                <Button Command="Cut" Content="Cortar" />
+                <Button Command="Copy" Content="Copiar" />
+                <Button Command="Paste" Content="Colar" />
+            </ToolBar>
+        </ToolBarTray>
+        <TextBox AcceptsReturn="True" />
+    </DockPanel>
+</Window>
