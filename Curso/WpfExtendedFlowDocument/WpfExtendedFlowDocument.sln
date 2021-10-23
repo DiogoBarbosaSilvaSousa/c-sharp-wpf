@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExtendedFlowDocument", "WpfExtendedFlowDocument\WpfExtendedFlowDocument.csproj", "{9918817F-5ABA-4D71-966B-5FF93F2D31BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBlockUIContainer", "WpfBlockUIContainer\WpfBlockUIContainer.csproj", "{AED3F51C-4D91-4470-86B6-7665E55E27EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9918817F-5ABA-4D71-966B-5FF93F2D31BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9918817F-5ABA-4D71-966B-5FF93F2D31BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9918817F-5ABA-4D71-966B-5FF93F2D31BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9918817F-5ABA-4D71-966B-5FF93F2D31BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED3F51C-4D91-4470-86B6-7665E55E27EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED3F51C-4D91-4470-86B6-7665E55E27EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED3F51C-4D91-4470-86B6-7665E55E27EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED3F51C-4D91-4470-86B6-7665E55E27EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15C8E1EA-8FDD-41B0-BFDD-F0C07D2B0ABD}
+	EndGlobalSection
+EndGlobal
