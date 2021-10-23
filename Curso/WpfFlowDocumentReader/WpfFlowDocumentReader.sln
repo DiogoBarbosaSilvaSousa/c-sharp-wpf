@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFlowDocumentReader", "WpfFlowDocumentReader\WpfFlowDocumentReader.csproj", "{3AC25815-1246-4D53-ABE5-03DADBD62B5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC25815-1246-4D53-ABE5-03DADBD62B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC25815-1246-4D53-ABE5-03DADBD62B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC25815-1246-4D53-ABE5-03DADBD62B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC25815-1246-4D53-ABE5-03DADBD62B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50FCC42C-BF13-43E2-8573-A6017983A087}
+	EndGlobalSection
+EndGlobal
