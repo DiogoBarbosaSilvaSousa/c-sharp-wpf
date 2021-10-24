@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarSelectionMode", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarSelectionModeMultipleRange", "WpfCalendarSelectionModeMultipleRange\WpfCalendarSelectionModeMultipleRange.csproj", "{CB1A17E4-EEF2-452B-B263-F97E22C560F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarSelection", "WpfCalendarSelection\WpfCalendarSelection.csproj", "{DA2D0C45-7E87-47C3-873A-F265CC47E912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarSelectedDate", "WpfCalendarSelectedDate\WpfCalendarSelectedDate.csproj", "{5EA49D69-DA37-4258-9D29-A76FA1463416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarBlockedoutDate", "WpfCalendarBlockedoutDate\WpfCalendarBlockedoutDate.csproj", "{8D41001B-29C5-4E97-A9FF-5E2765CD74B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarDisplayModeYear", "WpfCalendarDisplayModeYear\WpfCalendarDisplayModeYear.csproj", "{30913A1E-C054-47B8-A4D0-4F807B330A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarDisplayModeDecade", "WpfCalendarDisplayModeDecade\WpfCalendarDisplayModeDecade.csproj", "{4B8316DB-7ADE-496C-ACF6-07ED6700F0F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,26 @@ Global
 		{CB1A17E4-EEF2-452B-B263-F97E22C560F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB1A17E4-EEF2-452B-B263-F97E22C560F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB1A17E4-EEF2-452B-B263-F97E22C560F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2D0C45-7E87-47C3-873A-F265CC47E912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2D0C45-7E87-47C3-873A-F265CC47E912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2D0C45-7E87-47C3-873A-F265CC47E912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2D0C45-7E87-47C3-873A-F265CC47E912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA49D69-DA37-4258-9D29-A76FA1463416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA49D69-DA37-4258-9D29-A76FA1463416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA49D69-DA37-4258-9D29-A76FA1463416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA49D69-DA37-4258-9D29-A76FA1463416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D41001B-29C5-4E97-A9FF-5E2765CD74B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D41001B-29C5-4E97-A9FF-5E2765CD74B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D41001B-29C5-4E97-A9FF-5E2765CD74B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D41001B-29C5-4E97-A9FF-5E2765CD74B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30913A1E-C054-47B8-A4D0-4F807B330A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30913A1E-C054-47B8-A4D0-4F807B330A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30913A1E-C054-47B8-A4D0-4F807B330A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30913A1E-C054-47B8-A4D0-4F807B330A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8316DB-7ADE-496C-ACF6-07ED6700F0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8316DB-7ADE-496C-ACF6-07ED6700F0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8316DB-7ADE-496C-ACF6-07ED6700F0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8316DB-7ADE-496C-ACF6-07ED6700F0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
