@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListViewGroup", "WpfListViewGroup\WpfListViewGroup.csproj", "{2A949B9B-31FE-4975-98EA-DEE43CC46562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListViewCollapseExpandGroup", "WpfListViewCollapseExpandGroup\WpfListViewCollapseExpandGroup.csproj", "{7741F83F-993E-4562-9E04-ACDB9E2AACD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A949B9B-31FE-4975-98EA-DEE43CC46562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A949B9B-31FE-4975-98EA-DEE43CC46562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A949B9B-31FE-4975-98EA-DEE43CC46562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A949B9B-31FE-4975-98EA-DEE43CC46562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7741F83F-993E-4562-9E04-ACDB9E2AACD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7741F83F-993E-4562-9E04-ACDB9E2AACD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7741F83F-993E-4562-9E04-ACDB9E2AACD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7741F83F-993E-4562-9E04-ACDB9E2AACD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56E5FDA8-EC39-4635-9A29-3D2FFE3810D3}
+	EndGlobalSection
+EndGlobal
