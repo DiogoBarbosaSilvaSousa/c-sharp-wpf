@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTreeViewMultipleTemplate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTreeViewSelectionExpansion", "WpfTreeViewSelectionExpansion\WpfTreeViewSelectionExpansion.csproj", "{60CBBB6C-8DAA-426A-80BF-335329B10434}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppTreeViewLazyLoading", "WpfAppTreeViewLazyLoading\WpfAppTreeViewLazyLoading.csproj", "{960EB66D-D4B1-4137-B35D-DDADAC5A95EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{60CBBB6C-8DAA-426A-80BF-335329B10434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CBBB6C-8DAA-426A-80BF-335329B10434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CBBB6C-8DAA-426A-80BF-335329B10434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960EB66D-D4B1-4137-B35D-DDADAC5A95EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960EB66D-D4B1-4137-B35D-DDADAC5A95EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960EB66D-D4B1-4137-B35D-DDADAC5A95EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960EB66D-D4B1-4137-B35D-DDADAC5A95EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
