@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTabControl", "WpfTabControl\WpfTabControl.csproj", "{733CBA88-EBB0-4B60-99E3-E7E741F4EB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTabControlWithCustomHeaders", "WpfTabControlWithCustomHeaders\WpfTabControlWithCustomHeaders.csproj", "{D66EF48F-4605-4811-95FA-FFC19A3761AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControllingTheTabControl", "WpfControllingTheTabControl\WpfControllingTheTabControl.csproj", "{9EFCB3AD-D33B-4D38-8F7F-24C9400CAC8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733CBA88-EBB0-4B60-99E3-E7E741F4EB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733CBA88-EBB0-4B60-99E3-E7E741F4EB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733CBA88-EBB0-4B60-99E3-E7E741F4EB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733CBA88-EBB0-4B60-99E3-E7E741F4EB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66EF48F-4605-4811-95FA-FFC19A3761AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66EF48F-4605-4811-95FA-FFC19A3761AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66EF48F-4605-4811-95FA-FFC19A3761AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66EF48F-4605-4811-95FA-FFC19A3761AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFCB3AD-D33B-4D38-8F7F-24C9400CAC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFCB3AD-D33B-4D38-8F7F-24C9400CAC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFCB3AD-D33B-4D38-8F7F-24C9400CAC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFCB3AD-D33B-4D38-8F7F-24C9400CAC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF2ACD1A-095C-4789-8A70-C69348D18BF9}
+	EndGlobalSection
+EndGlobal
