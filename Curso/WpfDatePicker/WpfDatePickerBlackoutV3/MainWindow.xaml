@@ -14,7 +14,6 @@
         <DatePicker Name="dp1">
             <DatePicker.BlackoutDates>
                 <CalendarDateRange Start="2021-10-01" End="2021-10-24" />
-                <CalendarDateRange Start="2021-11-01" End="2021-11-28" />
             </DatePicker.BlackoutDates>
         </DatePicker>
         <Label>Gênero:</Label>
