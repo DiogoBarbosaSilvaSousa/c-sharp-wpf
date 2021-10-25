@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTreeView", "WpfTreeView\WpfTreeView.csproj", "{F728C362-5D77-4407-90BF-E6BE149D4D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTreeViewCustomItems", "WpfTreeViewCustomItems\WpfTreeViewCustomItems.csproj", "{671E7340-2C1C-46A1-B880-D01B46ED5315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F728C362-5D77-4407-90BF-E6BE149D4D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F728C362-5D77-4407-90BF-E6BE149D4D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F728C362-5D77-4407-90BF-E6BE149D4D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F728C362-5D77-4407-90BF-E6BE149D4D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671E7340-2C1C-46A1-B880-D01B46ED5315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671E7340-2C1C-46A1-B880-D01B46ED5315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671E7340-2C1C-46A1-B880-D01B46ED5315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671E7340-2C1C-46A1-B880-D01B46ED5315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC6D068-8BF8-4A4A-8BBD-20FBA144FE1E}
+	EndGlobalSection
+EndGlobal
