@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSimpleDataGrid", "WpfSim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGridColumns", "WpfDataGridColumns\WpfDataGridColumns.csproj", "{FF985715-8A94-46F6-A7AB-8C3B324BB928}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGridDetails", "WpfDataGridDetails\WpfDataGridDetails.csproj", "{5A6E0D72-EEE2-4876-AAA3-5DF5FC5DFA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataGridDetailsV2", "WpfDataGridDetailsV2\WpfDataGridDetailsV2.csproj", "{7DFBE39A-FC22-4459-A86D-6EB4E2EFBC4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{FF985715-8A94-46F6-A7AB-8C3B324BB928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF985715-8A94-46F6-A7AB-8C3B324BB928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF985715-8A94-46F6-A7AB-8C3B324BB928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6E0D72-EEE2-4876-AAA3-5DF5FC5DFA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6E0D72-EEE2-4876-AAA3-5DF5FC5DFA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6E0D72-EEE2-4876-AAA3-5DF5FC5DFA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6E0D72-EEE2-4876-AAA3-5DF5FC5DFA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFBE39A-FC22-4459-A86D-6EB4E2EFBC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFBE39A-FC22-4459-A86D-6EB4E2EFBC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFBE39A-FC22-4459-A86D-6EB4E2EFBC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFBE39A-FC22-4459-A86D-6EB4E2EFBC4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
