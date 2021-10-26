@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSimpleStyle", "WpfSimpleStyle\WpfSimpleStyle.csproj", "{94ADEFF4-39CE-4369-A109-F4D36F2110CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlSpecificStyle", "WpfControlSpecificStyle\WpfControlSpecificStyle.csproj", "{C71A8E7E-7B33-4D24-BA20-5CF188C8DAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSimpleStyleLocal", "WpfSimpleStyleLocal\WpfSimpleStyleLocal.csproj", "{EB352D84-CA47-4F53-A3A5-0C90C8EB65A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWindowWideStyle", "WpfWindowWideStyle\WpfWindowWideStyle.csproj", "{F3073396-38DA-437A-9C56-16B8398164C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplicationWideStyle", "WpfApplicationWideStyle\WpfApplicationWideStyle.csproj", "{B3583CFE-A2A6-4233-AC08-19C136A96D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExplicitStyle", "WpfExplicitStyle\WpfExplicitStyle.csproj", "{EA1EA8A2-C76F-4523-AC18-4ED0CD62576A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{94ADEFF4-39CE-4369-A109-F4D36F2110CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94ADEFF4-39CE-4369-A109-F4D36F2110CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94ADEFF4-39CE-4369-A109-F4D36F2110CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71A8E7E-7B33-4D24-BA20-5CF188C8DAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71A8E7E-7B33-4D24-BA20-5CF188C8DAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71A8E7E-7B33-4D24-BA20-5CF188C8DAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71A8E7E-7B33-4D24-BA20-5CF188C8DAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB352D84-CA47-4F53-A3A5-0C90C8EB65A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB352D84-CA47-4F53-A3A5-0C90C8EB65A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB352D84-CA47-4F53-A3A5-0C90C8EB65A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB352D84-CA47-4F53-A3A5-0C90C8EB65A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3073396-38DA-437A-9C56-16B8398164C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3073396-38DA-437A-9C56-16B8398164C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3073396-38DA-437A-9C56-16B8398164C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3073396-38DA-437A-9C56-16B8398164C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3583CFE-A2A6-4233-AC08-19C136A96D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3583CFE-A2A6-4233-AC08-19C136A96D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3583CFE-A2A6-4233-AC08-19C136A96D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3583CFE-A2A6-4233-AC08-19C136A96D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1EA8A2-C76F-4523-AC18-4ED0CD62576A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1EA8A2-C76F-4523-AC18-4ED0CD62576A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1EA8A2-C76F-4523-AC18-4ED0CD62576A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1EA8A2-C76F-4523-AC18-4ED0CD62576A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
