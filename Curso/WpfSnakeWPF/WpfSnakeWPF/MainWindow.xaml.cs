@@ -45,6 +45,35 @@ namespace WpfSnakeWPF
             gameTickTimer.Tick += GameTickTimer_Tick;
         }
 
+        private void Window_KeyUp(object sender, KeyEventArgs e)
+        {
+            SnakeDirection originalSnakeDirection = snakeDirection;
+            switch (e.Key)
+            {
+                case Key.Up:
+                    if (snakeDirection != SnakeDirection.Down)
+                        snakeDirection = SnakeDirection.Up;
+                    break;
+                case Key.Down:
+                    if (snakeDirection != SnakeDirection.Up)
+                        snakeDirection = SnakeDirection.Down;
+                    break;
+                case Key.Left:
+                    if (snakeDirection != SnakeDirection.Right)
+                        snakeDirection = SnakeDirection.Left;
+                    break;
+                case Key.Right:
+                    if (snakeDirection != SnakeDirection.Left)
+                        snakeDirection = SnakeDirection.Right;
+                    break;
+                case Key.Space:
+                    StartNewGame();
+                    break;
+            }
+            if (snakeDirection != originalSnakeDirection)
+                MoveSnake();
+        }
+
         private void DrawSnakeFood()
         {
             Point foodPosition = GetNextFoodPosition();
