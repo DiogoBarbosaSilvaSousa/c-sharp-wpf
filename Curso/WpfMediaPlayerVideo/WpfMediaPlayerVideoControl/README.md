@@ -1,4 +1,5 @@
 # Programas e exemplos utilizando C# e WPF (Vídeos)
+### Aviso importante
 Dentro deste projeto eu criei uma pasta chamada component com outra pasta dentro chamada Videos "./component/Videos" 
 O que não pode ficar óbvio é que para fazer o projeto rodar o vídeo corretamente neste endereco é que eu copio essa estrutura para
 onde estão os binários ou seja para dentro da pasta 'WpfMediaPlayerVideoControl\bin\Debug' ou '\WpfMediaPlayerVideoControl\bin\Release'
