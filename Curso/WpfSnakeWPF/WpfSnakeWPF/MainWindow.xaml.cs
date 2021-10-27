@@ -20,6 +20,10 @@ namespace WpfSnakeWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private UIElement snakeFood = null;
+        private SolidColorBrush foodBrush = Brushes.Red;
+
+        private Random rnd = new Random();
         private System.Windows.Threading.DispatcherTimer gameTickTimer = new System.Windows.Threading.DispatcherTimer();
 
         const int SnakeSquareSize = 20;
@@ -41,6 +45,36 @@ namespace WpfSnakeWPF
             gameTickTimer.Tick += GameTickTimer_Tick;
         }
 
+        private void DrawSnakeFood()
+        {
+            Point foodPosition = GetNextFoodPosition();
+            snakeFood = new Ellipse()
+            {
+                Width = SnakeSquareSize,
+                Height = SnakeSquareSize,
+                Fill = foodBrush
+            };
+            GameArea.Children.Add(snakeFood);
+            Canvas.SetTop(snakeFood, foodPosition.Y);
+            Canvas.SetLeft(snakeFood, foodPosition.X);
+        }
+
+        private Point GetNextFoodPosition()
+        {
+            int maxX = (int)(GameArea.ActualWidth / SnakeSquareSize);
+            int maxY = (int)(GameArea.ActualHeight / SnakeSquareSize);
+            int foodX = rnd.Next(0, maxX) * SnakeSquareSize;
+            int foodY = rnd.Next(0, maxY) * SnakeSquareSize;
+
+            foreach (SnakePart snakePart in snakeParts)
+            {
+                if ((snakePart.Position.X == foodX) && (snakePart.Position.Y == foodY))
+                    return GetNextFoodPosition();
+            }
+
+            return new Point(foodX, foodY);
+        }
+
         private void StartNewGame()
         {
             snakeLength = SnakeStartLength;
@@ -50,6 +84,7 @@ namespace WpfSnakeWPF
 
             // Draw the snake  
             DrawSnake();
+            DrawSnakeFood();
 
             // Go!          
             gameTickTimer.IsEnabled = true;
