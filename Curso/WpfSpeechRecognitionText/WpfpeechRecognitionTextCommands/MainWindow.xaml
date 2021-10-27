@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfpeechRecognitionTextCommands.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfpeechRecognitionTextCommands"
+        mc:Ignorable="d"
+       Title="SpeechRecognitionTextCommandsSample" Height="200" Width="300">
+    <DockPanel Margin="10">
+        <WrapPanel DockPanel.Dock="Top">
+            <Button Name="btnNew" Click="btnNew_Click">New</Button>
+            <Button Name="btnOpen" Click="btnOpen_Click">Open</Button>
+            <Button Name="btnSave" Click="btnSave_Click">Save</Button>
+        </WrapPanel>
+        <TextBox Margin="0,10" Name="txtSpeech" AcceptsReturn="True" TextWrapping="Wrap" />
+    </DockPanel>
+</Window>
